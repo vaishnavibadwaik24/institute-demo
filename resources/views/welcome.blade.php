@@ -134,7 +134,7 @@
 </div>
 
 <!-- Business Statistics Section -->
-<div class="bg-white py-16 px-16">
+<div class="bg-[#F5F7FA] py-16 px-16">
     <div class="container mx-auto px-6 lg:px-16">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <!-- Left Column - Text -->
@@ -187,6 +187,164 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<!-- Site Footer Section -->
+<div class="bg-white py-10">
+    <div class="container mx-auto px-12 lg:px-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <!-- Image Column -->
+            <div class="flex justify-center">
+                <img src="{{ asset('images/pana.svg') }}" alt="Pana" class="w-4/5 h-auto">
+            </div>
+            <!-- Content Column -->
+            <div>
+                <h2 class="text-4xl font-bold text-[#263238] leading-tight mb-6">
+                    How to design your site footer like we did                
+                </h2>
+                <p class="text-gray-600 text-sm mb-8">
+                Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at <br>porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent <br>felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
+                </p>
+                <a href="#" class="inline-block bg-[#4CAF4F] text-white px-8 py-3 rounded-md hover:bg-[#45a048] transition-colors duration-300">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonial Section -->
+<div class="bg-[#F5F7FA] py-16 px-16">
+    <div class="container mx-auto px-6 lg:px-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 items-center">
+            <!-- Left Column - Image -->
+            <div class="flex justify-center lg:justify-start">
+                <div class="rounded-lg w-72 h-72 flex items-center justify-center">
+                    <img src="{{ asset('images/tesla.svg') }}" alt="Tesla Logo" class="w-full">
+                </div>
+            </div>
+            
+            <!-- Right Column - Content -->
+            <div class="lg:-ml-8">
+                <p class="text-gray-600 text-sm mb-4">
+                    Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales.. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.
+                </p>
+                
+                <div class="mb-8">
+                    <h3 class="text-[#4CAF4F] text-lg font-semibold">Tim Smith</h3>
+                    <p class="text-gray-600">British Dragon Boat Racing Association</p>
+                </div>
+                
+                <!-- Client Logos -->
+                <div class="flex items-center gap-6 overflow-x-auto pb-2">
+                    <img src="{{ asset('images/client1.png') }}" alt="Client 1" class="h-8">
+                    <img src="{{ asset('images/client2.png') }}" alt="Client 2" class="h-8">
+                    <img src="{{ asset('images/client3.png') }}" alt="Client 3" class="h-8">
+                    <img src="{{ asset('images/client4.png') }}" alt="Client 4" class="h-8">
+                    <img src="{{ asset('images/client5.png') }}" alt="Client 5" class="h-8">
+                    <img src="{{ asset('images/client6.png') }}" alt="Client 6" class="h-8">
+                    <a href="#" class="text-[#4CAF4F] font-semibold flex items-center gap-2 whitespace-nowrap">
+                        Meet all customers
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Blog/Marketing Section -->
+<div class="bg-white py-12">
+    <div class="container mx-auto px-6 lg:px-16">
+        <!-- Section Header -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-[#263238] mb-4">Caring is the new marketing</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                The Nextcent blog is the best place to read about the latest membership insights, <br>trends and more. See who's joining the community, read about how our community <br>are increasing their membership income and lot's more.
+            </p>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 px-4 pb-8">
+            <!-- Card 1 -->
+            <div class="relative group">
+                <!-- Image -->
+                <div class="rounded-xl overflow-hidden mb-6">
+                    <img src="{{ asset('images/b1.svg') }}" alt="OneRen Process" class="w-full h-60 object-cover">
+                </div>
+                <!-- Overlay Card -->
+                <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-lg px-3 py-3 shadow-xl w-[75%] transition-all duration-300">
+                    <h3 class="text-lg font-semibold text-center text-[#263238] mb-3">Creating Streamlined Safeguarding Processes with OneRen</h3>
+                    <div class="flex justify-center">
+                        <a href="#" class="inline-flex items-center text-[#4CAF4F] font-semibold hover:text-[#3d8c3d] transition-colors">
+                            Readmore 
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="relative group">
+                <!-- Image -->
+                <div class="rounded-xl overflow-hidden mb-6">
+                    <img src="{{ asset('images/b2.svg') }}" alt="Safeguarding Responsibilities" class="w-full h-60 object-cover">
+                </div>
+                <!-- Overlay Card -->
+                <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-lg px-3 py-3 shadow-xl w-[80%] transition-all duration-300">
+                    <h3 class="text-lg font-semibold text-center text-[#263238] mb-4">What are your safeguarding responsibilities and how can <br>you manage them?</h3>
+                    <div class="flex justify-center">
+                        <a href="#" class="inline-flex items-center text-[#4CAF4F] font-semibold hover:text-[#3d8c3d] transition-colors">
+                            Readmore 
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="relative group">
+                <!-- Image -->
+                <div class="rounded-xl overflow-hidden mb-6">
+                    <img src="{{ asset('images/b3.svg') }}" alt="Triathlon Australia" class="w-full h-60 object-cover">
+                </div>
+                <!-- Overlay Card -->
+                <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-lg px-3 py-3 shadow-xl w-[80%] transition-all duration-300">
+                    <h3 class="text-lg font-semibold text-center text-[#263238] mb-4">Revamping the Membership Model with Triathlon <br>Australia</h3>
+                    <div class="flex justify-center">
+                        <a href="#" class="inline-flex items-center text-[#4CAF4F] font-semibold hover:text-[#3d8c3d] transition-colors">
+                            Readmore 
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CTA Section -->
+<div class="bg-[#F5F7FA] py-20">
+    <div class="container mx-auto px-6 lg:px-16 text-center">
+        <h2 class="text-4xl font-bold text-[#263238] mb-8">
+            Pellentesque suscipit<br>
+            fringilla libero eu.
+        </h2>
+        <a href="#" class="inline-flex items-center bg-[#4CAF4F] text-white px-6 py-3 rounded-md hover:bg-[#3d8c3d] transition-colors">
+            Get a Demo
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+        </a>
     </div>
 </div>
 
