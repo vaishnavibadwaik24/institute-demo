@@ -70,4 +70,43 @@
     </div>
 </div>
 
+<!-- Community Management Section -->
+<div class="bg-white py-10">
+    <div class="container mx-auto px-6 lg:px-16">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-bold tracking-tight text-[#263238] sm:text-4xl">Manage your entire community<br>in a single system</h2>
+            <p class="mt-3 text-sm text-gray-600">Who is Nextcent suitable for?</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-24 mt-6 max-w-4xl mx-auto">
+            <!-- Membership Organizations -->
+            <div class="bg-white rounded p-4 text-center shadow-sm hover:shadow transition-shadow duration-300">
+                <div class="flex justify-center mb-3">
+                    <img src="{{asset('images/m1.svg')}}" alt="M1">
+                </div>
+                <h3 class="text-xl font-bold text-[#263238] mb-2">Membership<br>Organizations</h3>
+                <p class="text-gray-600 text-xs leading-relaxed">Our membership management<br>software provides full automation<br>of membership renewals</p>
+            </div>
+
+            <!-- National Associations -->
+            <div class="bg-white rounded p-4 text-center shadow-sm hover:shadow transition-shadow duration-300">
+                <div class="flex justify-center mb-3">
+                    <img src="{{asset('images/m2.svg')}}" alt="M2">
+                </div>
+                <h3 class="text-xl font-bold text-[#263238] mb-2">National<br>Associations</h3>
+                <p class="text-gray-600 text-xs leading-relaxed">Our membership management<br>software provides full automation<br>of membership renewals</p>
+            </div>
+
+            <!-- Clubs and Groups -->
+            <div class="bg-white rounded p-4 text-center shadow-sm hover:shadow transition-shadow duration-300">
+                <div class="flex justify-center mb-3">
+                    <img src="{{asset('images/m3.svg')}}" alt="M3">
+                </div>
+                <h3 class="text-xl font-bold text-[#263238] mb-2">Clubs And<br>Groups</h3>
+                <p class="text-gray-600 text-xs leading-relaxed">Our membership management<br>software provides full automation<br>of membership renewals</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 @endsection
