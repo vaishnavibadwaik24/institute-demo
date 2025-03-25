@@ -109,4 +109,85 @@
     </div>
 </div>
 
+<!-- Pixelgrade Experience Section -->
+<div class="bg-white py-10">
+    <div class="container mx-auto px-12 lg:px-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <!-- Image Column -->
+            <div class="flex justify-center">
+                <img src="{{ asset('images/pixelgrade.svg') }}" alt="Pixelgrade Experience" class="w-4/5 h-auto">
+            </div>
+            <!-- Content Column -->
+            <div>
+                <h2 class="text-4xl font-bold text-[#263238] leading-tight mb-6">
+                    The unseen of spending three years at Pixelgrade
+                </h2>
+                <p class="text-gray-600 text-sm mb-8">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis.Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+                </p>
+                <a href="#" class="inline-block bg-[#4CAF4F] text-white px-8 py-3 rounded-md hover:bg-[#45a048] transition-colors duration-300">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Business Statistics Section -->
+<div class="bg-white py-16 px-16">
+    <div class="container mx-auto px-6 lg:px-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <!-- Left Column - Text -->
+            <div>
+                <h2 class="text-4xl font-bold text-[#263238] leading-tight">
+                    Helping a local
+                    <span class="text-[#4CAF4F] block">business reinvent itself</span>
+                </h2>
+                <p class="mt-4 text-gray-600">
+                    We reached here with our hard work and dedication
+                </p>
+            </div>
+            
+            <!-- Right Column - Statistics -->
+            <div class="grid grid-cols-2 gap-8">
+                <!-- Members -->
+                <div class="flex items-center gap-4">
+                    <img src="{{ asset('images/members.svg') }}" alt="Members" class="w-12 h-12">
+                    <div>
+                        <h3 class="text-3xl font-bold text-[#263238]">2,245,341</h3>
+                        <p class="text-gray-600">Members</p>
+                    </div>
+                </div>
+                
+                <!-- Clubs -->
+                <div class="flex items-center gap-4">
+                    <img src="{{ asset('images/clubs.svg') }}" alt="Clubs" class="w-14 h-14">
+                    <div>
+                        <h3 class="text-3xl font-bold text-[#263238]">46,328</h3>
+                        <p class="text-gray-600">Clubs</p>
+                    </div>
+                </div>
+                
+                <!-- Event Bookings -->
+                <div class="flex items-center gap-4">
+                    <img src="{{ asset('images/event.svg') }}" alt="Event Bookings" class="w-12 h-12">
+                    <div>
+                        <h3 class="text-3xl font-bold text-[#263238]">828,867</h3>
+                        <p class="text-gray-600">Event Bookings</p>
+                    </div>
+                </div>
+                
+                <!-- Payments -->
+                <div class="flex items-center gap-4">
+                    <img src="{{ asset('images/payments.svg') }}" alt="Payments" class="w-12 h-12">
+                    <div>
+                        <h3 class="text-3xl font-bold text-[#263238]">1,926,436</h3>
+                        <p class="text-gray-600">Payments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 @endsection
